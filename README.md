@@ -55,7 +55,7 @@ Klik tombol dibawah untuk mengambil String Session
 
 <a href="https://replit.com/@CollinFowel/StringSessionPyrogram#main.py"><img src="https://img.shields.io/badge/run-string__session.py-blue?style=for-the-badge&logo=repl.it" alt="generate_string" /></a>
 
-atau bisa Gabung ke [Grup Support](https://t.me/remaja_virtual62) lalu ketik [TEKAN DISINI UNTUK GABUNG](https://t.me/chvirtual62)
+Join group [Grup Support](https://t.me/remaja_virtual62) join channel [channel](https://t.me/chvirtual62)
 
 ### Credits
 - [Repi](https://github.com/collinfowel) : Dev on MusikVCG 
