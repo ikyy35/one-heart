@@ -510,7 +510,7 @@ async def play(_, message: Message):
                 ],                     
                 [
                     InlineKeyboardButton(
-                        "→ㅤJoin Groupㅤ←", url="https://t.me/IMPR0B4BL3"
+                        "Join Group", url="https://t.me/remaja_virtual62"
                     )
                 ],
                 [       
@@ -574,7 +574,7 @@ async def deezer(client: Client, message_: Message):
     try:
         user = await USER.get_me()
     except:
-        user.first_name =  "MusikVCG"
+        user.first_name =  "One-Heart"
     usar = user
     wew = usar.id
     try:
@@ -645,7 +645,7 @@ async def deezer(client: Client, message_: Message):
                 ],                     
                 [
                     InlineKeyboardButton(
-                        "→ㅤJoin Groupㅤ←", url="https://t.me/IMPR0B4BL3"
+                        "Join Group", url="https://t.me/remaja_virtual62"
                     )
                 ],
                 [       
@@ -706,7 +706,7 @@ async def jiosaavn(client: Client, message_: Message):
     try:
         user = await USER.get_me()
     except:
-        user.first_name =  "MusikVCG"
+        user.first_name =  "One-Heart"
     usar = user
     wew = usar.id
     try:
@@ -781,7 +781,7 @@ async def jiosaavn(client: Client, message_: Message):
                 ],                     
                 [
                     InlineKeyboardButton(
-                        "→ㅤJoin Groupㅤ←", url="https://t.me/IMPR0B4BL3"
+                        "Join Group", url="https://t.me/remaja_virtual62"
                     )
                 ],
                 [       
