@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./etc/logo_readme.jpg" alt="MusikVCG logo">
+  <img src="./etc/logo_readme.jpg" alt="One-Heart logo">
 </p>
 <h1 align="center">
   <b>🎶 MusikVCG Telegram Userbot</b>
@@ -49,14 +49,14 @@
 ### Deploy To Heroku</h4>
 Klik tombol dibawah untuk mendeploy ke Heroku
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/CollinFowel/MusikVCG)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/ikyy35/one-heart)
 
 ### Generate String Session
 Klik tombol dibawah untuk mengambil String Session
 
 <a href="https://replit.com/@CollinFowel/StringSessionPyrogram#main.py"><img src="https://img.shields.io/badge/run-string__session.py-blue?style=for-the-badge&logo=repl.it" alt="generate_string" /></a>
 
-atau bisa Gabung ke [Grup Support](https://t.me/MusikVCGSupport) lalu ketik #string [TEKAN DISINI UNTUK GABUNG](https://t.me/MusikVCGSupport)
+atau bisa Gabung ke [Grup Support](https://t.me/remaja_virtual62) lalu ketik #string [TEKAN DISINI UNTUK GABUNG](https://t.me/MusikVCGSupport)
 
 ### Credits
 - [Repi](https://github.com/collinfowel) : Dev on MusikVCG 
