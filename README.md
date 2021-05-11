@@ -43,8 +43,6 @@
 - `/userbotleave` - remove assistant from your chat
 - `/admincache` - Refresh admin list
 
-## Based on Callsmusic-1 & DAISYXMUSIC
-
 ### Deploy To Heroku</h4>
 Klik tombol dibawah untuk mendeploy ke Heroku
 
