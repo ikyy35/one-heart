@@ -23,18 +23,29 @@ from config import BOT_NAME as bn
 @Client.on_message(filters.command("start") & filters.private & ~filters.channel)
 async def start(_, message: Message):
     await message.reply_text(
-        f"""Halo, Apa yang dapat bot ini lakukan ? 🤔.\n\n🇮🇩 Bot ini dapat memutar lagu yang kamu mau pada telepon grup.\n\n🇬🇧 This bot can play the song you want in the voice call group.\n\n⚠️ How to use / bagaimana cara menggunakan bot ini ? ↓.\n\nRead / Baca → [Panduan menggunakan bot](https://t.me/MusikVcgChannel) ←.\n\n👤 Own [Repi](https://t.me/ccwoyx)🇮🇩""",
+          f"""<b>Haii.. {message.from_user.first_name} Aku adalah 𓊈one-heart music𓊉\n
+𝘈𝘒𝘜 𝘈𝘋𝘈𝘓𝘈𝘏 𝘉𝘖𝘛 𝘔𝘜𝘚𝘐𝘒 𝘛𝘌𝘓𝘌𝘎𝘙𝘈𝘔 𝘠𝘈𝘕𝘎 𝘋𝘐 𝘒𝘌𝘔𝘉𝘈𝘕𝘎𝘒𝘈𝘕 𝘖𝘓𝘌𝘏 :  [Ikyy](https://t.me/boyfriendnice)
+𝘈𝘗𝘈𝘉𝘐𝘓𝘈 𝘐𝘕𝘎𝘐𝘕 𝘔𝘌𝘕𝘎𝘎𝘜𝘕𝘈𝘒𝘈𝘕 𝘈𝘒𝘜 𝘐𝘕𝘝𝘐𝘛𝘌 𝘈𝘒𝘜 𝘋𝘈𝘕 𝘈𝘚𝘐𝘚𝘚𝘛𝘈𝘕𝘛 𝘕𝘠𝘈 𝘓𝘈𝘓𝘜 𝘑𝘈𝘋𝘐𝘒𝘈𝘕 𝘈𝘋𝘔𝘐𝘕 𝘒𝘌𝘋𝘜𝘈𝘕𝘠𝘈 𝘈𝘎𝘈𝘙 𝘉𝘐𝘚𝘈 𝘉𝘌𝘙𝘑𝘈𝘓𝘈𝘕 𝘋𝘌𝘕𝘎𝘈𝘕 𝘓𝘈𝘕𝘊𝘈𝘙,𝘑𝘐𝘒𝘈 𝘈𝘋𝘈 𝘒𝘌𝘕𝘋𝘈𝘓𝘈 𝘉𝘐𝘚𝘈 𝘊𝘏𝘈𝘛 𝘖𝘞𝘕𝘌𝘙𝘕𝘠𝘈.
+┏━━━━━━━━━━━━━━
+┣ > 𝙹𝙰𝙽𝙶𝙰𝙽 𝙻𝙸𝚂𝚃 𝙻𝙰𝙶𝚄 𝚂𝙴𝙺𝙰𝙻𝙸𝙶𝚄𝚂 𝚃𝙰𝙺𝚄𝚃 𝙴𝚁𝙾𝚁.
+┣ > 𝙹𝙸𝙺𝙰 𝙷𝙰𝙱𝙸𝚂 𝙳𝙸𝙼𝙰𝚃𝙸𝙺𝙰𝙽 𝙿𝙰𝙺𝚂𝙰 𝙹𝙰𝙽𝙶𝙰𝙽 
+    𝙻𝙰𝙽𝙶𝚂𝚄𝙽𝙶 𝙿𝙻𝙰𝚈 𝙻𝙰𝙶𝚄 𝚃𝚄𝙽𝙶𝙶𝚄 𝚂𝙴𝙱𝙴𝙽𝚃𝙰𝚁 
+    𝙹𝙸𝙺𝙰 𝚃𝙸𝙳𝙰𝙺, 𝙰𝚂𝙸𝚂𝚃𝙴𝙽 𝚃𝙸𝙳𝙰𝙺 𝙰𝙺𝙰𝙽 𝙽𝙰𝙸𝙺.
+┗━━━━━━━━━━━━━━
+🤵𝓒𝓻𝓮𝓪𝓽𝓮𝓭 𝓫𝔂 : [Ikyy](https://t.me/boyfriendnice)
+☘️𝓣𝓱𝓪𝓷𝓴𝓼 𝓯𝓸𝓻 : [Grup Support](https://t.me/remaja_virtual62)
+━━━━━━━━━━━━━━
         reply_markup=InlineKeyboardMarkup(
             [ 
                 [
                     InlineKeyboardButton(
-                        "Panduan menggunakan bot", url="https://t.me/MusikVcgChannel/3")
+                        "Owner", url="https://t.me/boyfriendnice")
                   ],[
                     InlineKeyboardButton(
-                        "Group Support", url="https://t.me/MusikVCGSupport"
+                        "Group Support", url="https://t.me/remaja_virtual62"
                     ),
                     InlineKeyboardButton(
-                        "Channel", url="https://t.me/MusikVcgChannel"
+                        "Channel", url="https://t.me/chvirtual62"
                     )
                 ]
             ]
@@ -49,10 +60,10 @@ async def gstart(_, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "Group Support", url="https://t.me/MusikVCGSupport"
+                        "Group Support", url="https://t.me/remaja_virtual62"
                     ),
                     InlineKeyboardButton(
-                        "Owner", url="https://t.me/ccwoyx"
+                        "Owner", url="https://t.me/boyfriendnice"
                     )
                 ]
             ]
@@ -66,10 +77,10 @@ async def gstart(_, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "Group Support", url="https://t.me/MusikVCGSupport"
+                        "Group Support", url="https://t.me/remaja_virtual62"
                     ),
                     InlineKeyboardButton(
-                        "Owner", url="https://t.me/ccwoyx"
+                        "Owner", url="https://t.me/boyfriendnice"
                     )
                 ]
             ]
