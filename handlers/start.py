@@ -48,7 +48,7 @@ async def start(_, message: Message):
                         "Channel", url="https://t.me/chvirtual62"
                   ],[
                     InlineKeyboardButton(
-                        "Instagram", url="https://t.me/remaja_virtual62"
+                        "Instagram", url="https://www.instagram.com/ikyyy_35/
                 ]
             ]
         ),
