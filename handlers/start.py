@@ -46,11 +46,13 @@ async def start(_, message: Message):
                     ),
                     InlineKeyboardButton(
                         "Channel", url="https://t.me/chvirtual62"
-                    )
+                  ],[
+                    InlineKeyboardButton(
+                        "Instagram", url="https://t.me/remaja_virtual62"
                 ]
             ]
         ),
-     disable_web_page_preview=True
+    disable_web_page_preview=True
     )
 
 @Client.on_message(filters.command("start") & ~filters.private & ~filters.channel)
